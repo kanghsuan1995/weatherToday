@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Ubuntu", sans-serif;
+  margin: 5vw auto;
+  display: block;
+  width: 90%;
+  font-size: 18px;
+  color: white;
+}
+
+.timeContainer {
+  font-family: "Ubuntu", sans-serif;
+  width: 150px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.weatherContainer {
+  background-image: linear-gradient(#ffcbcb, #efee9d);
+  padding: 13vw;
+  height: 75vw;
+  width: 75vw;
+  margin: 100px auto;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.inputCity,
+.inputCountry {
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-bottom: 2px solid white;
+  display: block;
+  height: 20px;
+  width: auto;
+  font-size: 16px;
+  margin: 20px auto;
+}
+
+.searchButton,
+.backButton {
+  background-color: transparent;
+  border: 2px solid white;
+  height: 20px;
+  width: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  margin: 30px auto 0 auto;
+  display: block;
+  color: white;
+}
+
+.weatherInfo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-family: "Ubuntu", sans-serif;
+    margin: 90px auto 60px auto;
+    display: block;
+    width: 50%;
+    font-size: 18px;
+    color: white;
+  }
+
+  .timeContainer {
+    font-family: "Ubuntu", sans-serif;
+    width: 150px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+
+  ::placeholder {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+
+  .weatherContainer {
+    background-image: linear-gradient(#ffcbcb, #efee9d);
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+  }
+
+  .inputCity,
+  .inputCountry {
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-bottom: 2px solid white;
+    display: block;
+    height: 20px;
+    width: auto;
+    font-size: 20px;
+    margin: 20px auto;
+  }
+
+  .searchButton,
+  .backButton {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 20px;
+    width: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 30px auto 0 auto;
+    display: block;
+    color: white;
+  }
+
+  .weatherInfo {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: white;
+  }
+  .errorMessage {
+    color: red;
+  }
+}
